@@ -1,0 +1,3 @@
+resources:
+- 01-subscription.yaml
+- 02-operator-group.yaml
