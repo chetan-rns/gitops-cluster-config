@@ -1,0 +1,12 @@
+apiVersion: config.openshift.io/v1
+kind: Build
+metadata:
+  name: cluster
+spec:
+  buildDefaults:
+    env:
+    - name: envkey
+      value: envvalue
+    imageLabels:
+    - name: labelkey
+      value: labelvalue
