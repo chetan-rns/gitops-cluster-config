@@ -4,5 +4,5 @@ GitOpsify your OpenShift cluster configurations using the OpenShift GitOps opera
 ### OLM Operators
 
 ```bash
-oc apply -k olm-operators/grafana
+oc apply -f olm-operators/argocd
 ```
