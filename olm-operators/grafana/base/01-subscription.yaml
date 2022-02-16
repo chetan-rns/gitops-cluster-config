@@ -4,7 +4,7 @@ metadata:
   name: my-grafana-operator
   namespace: my-grafana-operator
 spec:
-  channel: alpha
+  channel: v4
   name: grafana-operator
   source: community-operators
   sourceNamespace: openshift-marketplace
